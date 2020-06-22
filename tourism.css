@@ -1,0 +1,31 @@
+#t1{
+	width:100%;
+	border:5px solid black;
+	border-color:red;
+}
+#th1,#th2,#th3,#th4,#th5{
+	height:20px;
+	padding:10px;
+	text-align:center;
+
+}
+#table1{
+	margin-top:3%;
+}
+ #t0,#t2,#t3{
+	 text-align:center;
+	 font-weight:bold;
+	 font-family:"Algerian";
+	 font-size:20px;
+ }
+ 
+ #pp1,#pp2{
+	  font-family:"Times New Roman";
+	 font-size:20px;
+	 font-weight:bold;
+	 text-align:center;
+ }
+ body{
+ 
+	 background-color:white;
+ }

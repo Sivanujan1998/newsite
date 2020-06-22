@@ -1,0 +1,31 @@
+#t1{
+	width:100%;
+	border:5px solid black;
+	border-color:red;
+}
+#th1,#th2,#th3,#th4,#th5{
+	height:20px;
+	padding:10px;
+	text-align:center;
+}
+ 
+ body{
+	 background-color:white;
+	 
+ }
+ 
+ #ppp1{
+	 position: relative;
+  text-align: left;
+  color: white;
+ }
+ 
+ #d1{
+	 position: absolute;
+  top: 8px;
+  left: 16px;
+ }
+ 
+ 
+ 
+ 

@@ -1,0 +1,96 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="form.css"><title>form</title></head>
+ <body>
+<script language="javascript">
+ function total()
+ {
+ document.abc.out.value=document.abc.a.value*document.abc.select.value+"LKR";
+ }
+ </script>
+ 
+ <h3><u><b><p align=center>Welcometo the Register Center only for tourist<br>(This details will be send to your guide)</p></b></u></h3>
+ <center><table>
+  <form name="abc"><pre>
+ <tr>
+ <td>Full Name</td>
+ <td>:<input type="textbox" size=40></td>
+ </tr>
+ <tr>
+ <td>Where are you from</td>
+ <td>:<input type="textbox" size=40></td>
+ </tr>
+ <tr>
+ <td>Age</td>
+ <td>:<input type="number"></td>
+ </tr>
+ <tr>
+ <td>your Counry Address</td>
+ <td>:<textarea rows=3 cols=38></textarea></td>
+ </tr>
+ <tr>
+ <td>Gender</td>
+ <td>: Male <input type="radio" name="a"> Female <input type="radio" name="a"></td>
+ </tr>
+  <tr>
+ <td> No_of Members(trip)</td>
+ <td>:<input type="number" size=4></td>
+ </tr>
+  <tr>
+ <td>Srilankan Tel_no</td>
+ <td>:<input type="number" size=20></td>
+ </tr>
+  <tr>
+ <td> your Counry Tel_no </td>
+ <td>:<input type="number" size=20></td>
+ </tr>
+ <tr>
+ <td> Date for tour trip </td>
+ <td>:<input type="date"></td>
+ </tr>
+ <tr>
+ <td> No_of days planed </td>
+ <td>:<select name="select">
+ <option>1</option>
+ <option>2</option>
+ <option>3</option>
+ <option>4</option>
+ <option>5</option>
+ <option>6</option></select><br></td>
+ </tr>
+ <tr>
+ <td id="ii" colspan=2><fieldset>
+ <legend>provinces with prices(for one day)</legend>
+ provinces for your trip:<br> 
+ <pre> <input type="radio" value="8000" name="a">North (8000LKR)        <input type="radio" value="5000" name="a">Western (5000LKR)    <input type="radio" value="8000" name="a">Central (8000LKR)
+ <input type="radio" value="9000" name="a">Southern (9000LKR)     <input type="radio" value="6000" name="a">Uva (6000LKR)        <input type="radio" value="3000" name="a">NorthWestern (3000LKR)
+ <input type="radio" value="6000" name="a">Subaragamuwa (6000LKR) <input type="radio" value="4000" name="a">Eastern (4000LKR)    <input type="radio" value="5000" name="a">Northcentral (5000LKR)
+ </pre>
+</fieldset></td>
+
+
+ </tr>
+ <tr>
+ <td> <input type="button" value="calculate the amount" onclick="total()"> </td>
+ <td>:<input type="textarea" name="out" size=8><br></td>
+ </tr>
+ <tr>
+ <tr>
+ <td align=right><input type="reset" value="Reset"></td>
+ <td align=left><input type="Submit" value="Submit"><br></td>
+ </tr>
+ <tr>
+ </form>
+ </table>
+ </center>
+
+   
+ 
+ 
+ 
+
+        
+   
+ 			
+ </body>
+</html>

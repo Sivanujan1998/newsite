@@ -1,0 +1,39 @@
+#t1{
+ 
+	width:100%;
+	border:5px solid black;
+	border-color:red;
+}
+#m{
+ text-align:center;
+}
+
+#th1,#th2,#th3,#th4,#th5{
+height:20px;
+	padding:10px;
+	text-align:center;
+
+}
+#web{
+	font-weight:bold;
+	font-family:Lithos Pro Regular;
+	font-size:50px;
+}
+
+ div{
+	 margin-left:1%;
+ }
+
+ #dd1{
+	 font-family:"Adobe Garamond Pro Bold";
+	 font-size:20px;
+ }
+ #img{
+	text-align:center;
+	font-size:25px;
+ }
+ 
+ #fill{
+	 height:100%;
+	 width:100%;
+ }

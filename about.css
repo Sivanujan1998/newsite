@@ -1,0 +1,44 @@
+#t1{
+	width:100%;
+	border:5px solid black;
+	border-color:red;
+}
+#th1,#th2,#th3,#th4,#th5{
+	height:20px;
+	padding:10px;
+	text-align:center;
+	
+
+}
+
+#hh1,#hh2{
+	font-family:"Algerian";
+	font-size:20px;
+	color:blue;
+	margin-left:10%;
+}
+
+#ol1,#ol2{
+	list-style-type:upper-roman;
+	font-size:18px;
+	font-family:"Times New Roman";
+	margin-left:10%;
+}
+p{
+	font-size:18px;
+	margin-left:3%;
+}
+
+#im{
+	margin-right:20%;
+	margin-bottom:5%;
+}
+
+#im1{
+	margin-right:20%;
+}
+ 
+ body{
+	 
+	 background-color:white;
+ }
